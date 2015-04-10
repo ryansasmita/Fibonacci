@@ -16,7 +16,7 @@ public class Nomor1 {
         Scanner s = new Scanner(System.in);
 		System.out.print("Masukkan bilangan ? ");
 		int n = s.nextInt();
-		for(int i=1;i<=n;i++)
+		for(int i=1;i>=n;i++)
 			System.out.print(fibo(i) + " ");
 		System.out.println();
     }
